@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "scrutin-local",
+  "description": "Scrutin for Claude Code: review your changes locally before you open the PR. No account needed.",
+  "owner": {
+    "name": "Scrutin",
+    "email": "support@scrutin.dev"
+  },
+  "plugins": [
+    {
+      "name": "scrutin-local",
+      "description": "Type /scrutin to review your local changes with the Scrutin CLI before you open the PR. No account; with --no-ai the review runs on your machine.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Scrutin",
+        "email": "support@scrutin.dev"
+      },
+      "source": "./plugins/scrutin-local",
+      "homepage": "https://scrutin.dev/en",
+      "license": "MIT",
+      "keywords": ["scrutin", "code-review", "local", "pre-pr", "security", "secrets", "dockerfile"]
+    }
+  ]
+}

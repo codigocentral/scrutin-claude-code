@@ -1,0 +1,13 @@
+{
+  "name": "scrutin-local",
+  "description": "Type /scrutin to review your local changes with the Scrutin CLI before you open the PR. No account; with --no-ai the review runs on your machine.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Scrutin",
+    "email": "support@scrutin.dev"
+  },
+  "homepage": "https://scrutin.dev/en",
+  "repository": "https://github.com/codigocentral/scrutin-claude-code",
+  "license": "MIT",
+  "keywords": ["scrutin", "code-review", "local", "pre-pr", "security", "secrets", "dockerfile"]
+}
